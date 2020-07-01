@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Pokestore" src="https://github.com/helcioItiyama/fashionista/blob/master/src/assets/images/logo.png" width="200px" />
+    <img alt="Pokestore" src="https://github.com/Alessandro1979-itac//blob/master/src/assets/images/logo.png" width="200px" />
 </h1>
 
 ## :arrow_right:  ABOUT THE PROJECT
@@ -33,7 +33,7 @@ You just need to run the following commands:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/helcioItiyama/fashionista.git
+$ git clone https://github.com/Alessandro1979-itac/loja-online-pokestore.git
 
 # Go into the repository
 $ cd loja-online-pokestore
