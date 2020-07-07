@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { PersistGate } from "redux-persist/integration/react";
 import { Provider } from "react-redux";
 
-import "./index.scss";
+import "./styles.scss";
 import App from "./statefull/App";
 import { store, persistor } from "./store";
 
