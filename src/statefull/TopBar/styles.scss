@@ -1,0 +1,54 @@
+.topbar-wrapper {
+  background-color: #fff;
+  box-shadow: 0 2px 30px 5px rgba(0,0,0,.1);
+}
+
+.topbar {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 1rem;
+  }
+
+  & a {
+    height: 100%;
+  }
+
+  &__logo {
+    height: 90%;
+    cursor: pointer;
+  }
+
+  &__buttons {
+    display: flex;
+  }
+
+  &__button {
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    & + .topbar__button {
+      margin-left: 1.5rem;
+    }
+
+    &__counter {
+      position: absolute;
+      right: -5px;
+      top: -5px;
+      background-color: tomato;
+      border-radius: 50%;
+      height: 18px;
+      width: 18px;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+}
