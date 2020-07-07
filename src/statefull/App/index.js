@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch } from "react-redux"
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-//
-import "./styles.scss";
+
 import Main from "../../statefull/Main"
 import TopBar from "../TopBar";
 import Cart from "../Cart";
