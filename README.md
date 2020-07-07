@@ -1,9 +1,9 @@
 # Pokedex
 Pokedex criada usando NodeJs e React
 <p align="center">
-   <img src="https://github.com/carlosguttemberg/Pokedex/blob/master/frontend/src/assets/pokemon-logo.png" width="300">
-   <img src="https://github.com/carlosguttemberg/Pokedex/blob/master/img/node-js.png" width="300">
-   <img src="https://github.com/carlosguttemberg/Pokedex/blob/master/img/react.png" width="300">
+   <img src="https://github.com/Alessandro1979-itac/loja-online-pokestore/blob/master/frontend/src/assets/pokemon-logo.png" width="300">
+   <img src="https://github.com/Alessandro1979-itac/loja-online-pokestore/blob/master/img/node-js.png" width="300">
+   <img src="https://github.com/Alessandro1979-itac/loja-online-pokestore/blob/master/img/react.png" width="300">
 </p>
 
 <hr>
