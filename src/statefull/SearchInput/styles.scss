@@ -1,0 +1,15 @@
+.search-input {
+  width: 30%;
+  margin: 35px auto -10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: tomato;
+  display: block;
+  font-size: 16px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,.07);
+
+  @media screen and (max-width: 768px) {
+    width: 60%;
+  }
+}
