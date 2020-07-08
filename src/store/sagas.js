@@ -1,7 +1,7 @@
 import { put, takeLatest, all, call } from 'redux-saga/effects';
 
 function fetchProducts() {
-  return fetch("https://api.reinaldowft.com/pokestore?limit=25&page=6")
+  return fetch("https://api.reinaldowft.com/pokestore?limit=25&page=1")
     .then((data) => data.json())
     .then((data) => data.results)
 }

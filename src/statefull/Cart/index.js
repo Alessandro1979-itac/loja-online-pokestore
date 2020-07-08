@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { toast } from "react-toastify";
-//
+
 import Drawer from "../../stateless/Drawer";
 import CardProductCart from "../../stateless/CardProductCart";
 import { clearCart, closeCartDrawer } from "../../actions";

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import { FaCartPlus, FaHeart } from "react-icons/fa"
 import { FiHeart } from "react-icons/fi"
-//
+
 import * as S from "./styles"
 import ImgWithLoader from "../../stateless/ImgWithLoader";
 import { placeholder } from "../../services/utils";
