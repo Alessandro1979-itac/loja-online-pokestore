@@ -74,6 +74,7 @@ const PokeList: React.FC<{pushToCart: any}> = ({ pushToCart }) => {
 					</Content>
 
 					<Pagination>
+					<Footer />
 						<PrevButton
 							onClick={handlePrevButton}
 							disabled={apiMeta?.previous === null}
@@ -88,7 +89,6 @@ const PokeList: React.FC<{pushToCart: any}> = ({ pushToCart }) => {
 							Próxima <FaChevronRight />
 						</NextButton>
 					</Pagination>
-					<Footer />
 				</div>
 
 				) : 'Loading...'

@@ -10,13 +10,13 @@ export const Pagination = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #1492E6;
+	color: tomato;
 `;
 
 const Button = styled.button`
 	font-weight: 600;
-	color: #1492E6;
-	border: 2px solid #1492E6;
+	color: tomato;
+	border: 2px solid tomato;
 	background: white;
 	padding: 0.65em;
 	margin: 1em;
@@ -30,7 +30,7 @@ const Button = styled.button`
 
 	&:hover:enabled {
 		color: white;
-		background-color: #1492E6;
+		background-color: tomato;
 	}
 
 	&:disabled {
