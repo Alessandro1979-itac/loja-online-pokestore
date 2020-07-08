@@ -8,6 +8,7 @@ import {
 } from '../../Utils';
 
 import PokemonCard from '../PokemonCard';
+import Footer from '../Footer'
 
 import {
 	Content,
@@ -77,16 +78,17 @@ const PokeList: React.FC<{pushToCart: any}> = ({ pushToCart }) => {
 							onClick={handlePrevButton}
 							disabled={apiMeta?.previous === null}
 						>
-							<FaChevronLeft /> Prev
+							<FaChevronLeft /> Anterior
 						</PrevButton>
 
 						<NextButton
 							onClick={handleNextButton}
 							disabled={apiMeta?.count ? offset >= apiMeta.count : false}
 						>
-							Next <FaChevronRight />
+							Próxima <FaChevronRight />
 						</NextButton>
 					</Pagination>
+					<Footer />
 				</div>
 
 				) : 'Loading...'
