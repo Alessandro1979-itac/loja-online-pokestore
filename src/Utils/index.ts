@@ -41,9 +41,9 @@ export type PokemonCartItem = {
 };
 
 export const FormatPrice = (value: number) => {
-	const currency = new Intl.NumberFormat('en', {
+	const currency = new Intl.NumberFormat('pt-BR', {
 		style: 'currency',
-		currency: 'USD'
+		currency: 'BRL'
 	});
 
 	const price = currency.format(value);
