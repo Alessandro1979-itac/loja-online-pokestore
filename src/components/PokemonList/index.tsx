@@ -89,6 +89,7 @@ const PokeList: React.FC<{pushToCart: any}> = ({ pushToCart }) => {
 							Próxima <FaChevronRight />
 						</NextButton>
 					</Pagination>
+					<p>Elaborado por Alessandro Muniz Caranha</p>
 				</div>
 
 				) : 'Loading...'
