@@ -45,7 +45,7 @@ const PokemonCard: React.FC<{
 				<FaCartPlus
 					size={24}
 					style={{ marginRight: 10 }} />
-				Add to Cart
+				Adicionar ao Carrinho
 			</CardButton>
 		</Container>
 	);
