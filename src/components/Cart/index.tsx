@@ -90,7 +90,7 @@ const Cart: React.FC<{
 						})
 						: (
 							<EmptyCart>
-								<h1>Empty cart</h1>
+								<h1>Carrinho Vazio</h1>
 							</EmptyCart>
 						)
 				}
@@ -107,7 +107,7 @@ const Cart: React.FC<{
 							size={25}
 							style={{ marginRight: '10px' }}
 						/>
-						Checkout
+						Finalizar
 					</ButtonCheckout>
 					<Dialog
 						open={openModal}
@@ -120,12 +120,12 @@ const Cart: React.FC<{
 								<div className="checkmark draw"></div>
 							</div>
 							<TextConfirm>
-								Thank You for shopping with us!
+								Obrigado por comprar conosco!
 							</TextConfirm>
 						</DContent>
 						<DialogActions>
 							<Button onClick={handleClose} color="primary" autoFocus>
-								OK
+								OK!
 							</Button>
 						</DialogActions>
 					</Dialog>
