@@ -18,7 +18,7 @@ export const Logo = styled.div`
 `;
 
 export const ButtonCart = styled.button`
-	color: rgba(39, 67, 94, 1.0);
+	color: tomato;
 	border: unset;
 	background: unset;
 
@@ -33,7 +33,7 @@ export const ButtonCart = styled.button`
 		text-align: center;
 		line-height: 1.4;
 		color: white;
-		background-color: rgba(39, 67, 94, 1.0);
+		background-color: tomato;
 		border-radius: 50%;
 		padding: 5px 6px;
 

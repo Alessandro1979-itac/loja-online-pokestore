@@ -43,7 +43,7 @@ const Header: React.FC<{
 		<HeaderContainer>
 			<FaSearch />
 			<Logo>
-				<Link to='/' > PokéMart </Link>
+				<Link to='/' > PokeStore </Link>
 			</Logo>
 			<ButtonCart onClick={toggleDrawer(true)}>
 				<span> { totalItems } </span>
